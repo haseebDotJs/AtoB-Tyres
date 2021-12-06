@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*  inherit will give us the flexibility to change to box-sizing property in any elemnt  */
+    box-sizing: inherit;
+}
+@font-face {
+    font-family: "F37Ginger";
+    src: local("F37Ginger"), url("../../font/Psdkeys-com-F37_Ginger_Pro/F37GingerPro-Black.otf") format("truetype");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "F37Ginger";
+    src: local("F37Ginger"), url("../../font/Psdkeys-com-F37_Ginger_Pro/F37GingerPro-ExtraBold.otf") format("truetype");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "F37Ginger";
+    src: local("F37Ginger"), url("../../font/Psdkeys-com-F37_Ginger_Pro/F37GingerPro-Bold.otf") format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "F37Ginger";
+    src: local("F37Ginger"), url("../../font/Psdkeys-com-F37_Ginger_Pro/F37GingerPro-Demi.otf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "F37Ginger";
+    src: local("F37Ginger"), url("../../font/Psdkeys-com-F37_Ginger_Pro/F37GingerPro-Regular.otf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "F37Ginger";
+    src: local("F37Ginger"), url("../../font/Psdkeys-com-F37_Ginger_Pro/F37GingerPro-Light.otf") format("truetype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "F37Ginger";
+    src: local("F37Ginger"), url("../../font/Psdkeys-com-F37_Ginger_Pro/F37GingerPro-Thin.otf") format("truetype");
+    font-weight: 100;
+}
+body {
+    font-family: F37Ginger, Arial, sans-serif;
+    font-weight: 400;
+    color: $color-dark;
+    line-height: 1.7;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 29px;
+}
+h4 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}

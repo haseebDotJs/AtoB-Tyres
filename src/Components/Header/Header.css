@@ -1,0 +1,15 @@
+/* .header__desktop-menu--service:hover .header__desktop-menu--service-dropdown {
+    transform: rotate(180deg);
+}
+
+.header__desktop-menu--service:hover .header__desktop-menu--service-options {
+    display: block !important;
+}
+
+.header__desktop-menu--service-options:hover {
+    display: block;
+}
+
+/* .header__desktop-menu--service:hover {
+
+} */ 

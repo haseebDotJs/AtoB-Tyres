@@ -1,0 +1,42 @@
+.btn,
+.btn,
+.btn {
+    padding: 15px 48px;
+    font-size: 20px;
+    display: block;
+    border: 2px solid transparent;
+    width: 100%;
+    transition: all .25s;
+}
+.btn-sm {
+    max-width: 202px;
+}
+.btn-md {
+    max-width: 300px;
+}
+.btn-lg {
+    max-width: 375px;
+}
+
+.border-yellow{
+    border: 2px solid $color-primary;
+}
+
+.border-dark{
+    border: 2px solid $color-dark
+}
+.fill-transparent{
+    background-color: transparent;
+}
+.hover-dark {
+    &:hover {
+        filter: brightness(85%);
+    }
+}
+
+.hover-opacity-down{
+    &:hover{
+        opacity: .6;
+    }
+}
+

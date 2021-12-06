@@ -1,0 +1,77 @@
+// fonts
+.p-sm {
+    font-size: 12px;
+}
+.p-reg {
+    font-size: 14px;
+}
+.p-md {
+    font-size: 16px;
+}
+.p-lg {
+    font-size: 24px;
+}
+
+.p-xl {
+    font-size: 28px;
+}
+
+// width
+.container-p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container-ez{
+    padding: 60px 25px;
+    @include md{
+        padding: 120px 25px;
+    }
+}
+
+.max-xl {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.max-lg {
+    max-width: 1120px;
+    margin: auto;
+}
+.max-md {
+    max-width: 920px;
+    margin: auto; 
+}
+
+.max-sm {
+    max-width: 600px;
+    margin: auto;
+
+}
+
+// color
+.color-white{
+    color: $color-white
+}
+
+// primary bg
+.light-bg{
+    background-color: $color-bg; 
+}
+.light-gray-bg{
+    background-color: $color-gray-light;
+}
+.yellow-bg{
+    background-color: $color-primary;
+}
+.red-bg{
+    background-color: $color-secondary;
+}
+
+
+// divider
+.divider{
+    height: 1px;
+    background-color: $color-primary;
+    filter: brightness(.9);
+}

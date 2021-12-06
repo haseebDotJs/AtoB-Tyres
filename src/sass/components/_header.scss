@@ -1,0 +1,94 @@
+.header {
+    background-color: $color-primary;
+
+
+    &__top {
+        position: relative;
+        z-index: 4;
+    }
+    &__logo-text {
+        display: none;
+        @include lg {
+            display: block;
+        }
+    }
+    &__hamburger {
+        display: block;
+        @include lg {
+            display: none;
+        }
+    }
+    &__nav-item {
+        &:hover {
+            opacity: .8;
+        }
+    }
+    &__desktop-menu {
+        display: none;
+        position: relative;
+        &--service-options {
+            position: absolute;
+            width: 190px;
+            top: 30px;
+            right: 82%;
+            z-index: 2;
+            &--container {
+                background-color: $color-white;
+                position: relative;
+                top: 30px;
+                &--services {
+                    &:hover {
+                        background-color: $color-gray-light;
+                    }
+                }
+            }
+
+        }
+        @include lg {
+            display: flex;
+        }
+    }
+    &__mobile-menu {
+        background-color: $color-primary;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        padding-top: 80px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        &--serviceOpen {
+            background-color: $color-primary;
+            position: fixed;
+            width: 100%;
+            z-index: 3;
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        &--dropUp {
+            margin-left: 20px;
+        }
+        &--nav-item {
+            &:hover {
+                opacity: .8;
+            }
+        }
+        @include lg {
+            display: none;
+        }
+    }
+    p,
+    svg {
+        cursor: pointer;
+    }
+    @include lg {
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}

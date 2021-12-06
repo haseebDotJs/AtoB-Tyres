@@ -1,0 +1,9 @@
+.footer{
+    &__text{
+        transition: all .1s;
+
+        &:hover{
+            color: rgb(221, 183, 14);
+        }
+    }
+}

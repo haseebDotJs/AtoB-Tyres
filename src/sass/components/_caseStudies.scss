@@ -1,0 +1,13 @@
+.caseStudies {
+    &__textContainer {
+        @include lg {
+            min-height: 360px;
+
+        }
+    }
+    &__option {
+        &:hover {
+            color: $color-primary !important;
+        }
+    }
+}
