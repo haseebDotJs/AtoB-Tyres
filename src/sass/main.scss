@@ -4,8 +4,14 @@
 @import "base/utilities";
 
 @import "components/header";
+@import "components/footer";
+
+// home page components
 @import "components/hero";
 @import "components/caseStudies";
-@import "components/footer";
 @import "components/button";
+
+// about page components
+@import "components/aboutUs";
+@import "components/coreTeam";
 

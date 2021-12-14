@@ -1,0 +1,21 @@
+.coreTeam {
+    &__card {
+        position: relative;
+        z-index: 2;
+        margin-bottom: 130px;
+        &--image {
+            position: relative;
+            height: 375px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        &--slide{
+            position: absolute;
+            height: 130px;
+            // height: 100px;
+
+        }
+    }
+}

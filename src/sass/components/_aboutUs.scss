@@ -1,0 +1,15 @@
+.aboutUs {
+    height: 75vh;
+    max-height: 570px;
+    background-color: rgb(250, 204, 0);
+    @include lg {
+        height: 90vh;
+    }
+    &__image {
+        position: relative;
+        right: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 210px;
+    }
+}
